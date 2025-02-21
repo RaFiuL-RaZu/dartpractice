@@ -2,10 +2,9 @@
  import 'dart:math';
 
 void main(){
-  List<int> nameList=[10,15,20];
-  List<int> nameList1=[25,30,35];
+  List<String> nameList=["Hello","world","dart"];
 
-  nameList.shuffle(Random());
+  String sentence=nameList.join(" ");
   
-  print(nameList);
+  print(sentence);
 }
