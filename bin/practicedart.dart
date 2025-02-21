@@ -1,6 +1,6 @@
 
  void main(){
-  List<int> numberList=[10,2,2,31,14,14,55,26];
+  List<String> nameList=["razu","sazu","rafi","safin"];
 
-  print(numberList.contains(10));
+  print(nameList.contains("sazu"));
 }
