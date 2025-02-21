@@ -1,6 +1,6 @@
 
  void main(){
-  List<int> numberList=[1,2,3,4,5,6];
+  List<int> numberList=[10,2,31,14,55,26];
  
   int maxnumber=numberList.reduce((a,b)=>a>b?a:b);
   int minnumber=numberList.reduce((a,b)=> a<b?a:b);
