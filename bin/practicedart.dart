@@ -2,8 +2,7 @@
  import 'dart:math';
 
  void main() {
-   List<int> num=[1,2,3,4,5,6];
-
-   var result=num.where((num)=>num.isEven);
-   print(result);
+   List<int> num=[7,2,9,4,1,6,3,5];
+   num.sort();
+   print(num);
  }
